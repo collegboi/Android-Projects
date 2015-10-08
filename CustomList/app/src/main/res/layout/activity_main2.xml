@@ -7,4 +7,12 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.timbarnard.customlist.Main2Activity">
 
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/motorspy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
