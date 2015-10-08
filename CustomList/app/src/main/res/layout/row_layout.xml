@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/motorspy"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/title_Label"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/image_1"
+        android:text="Title"
+        android:gravity="center"
+        android:background="@color/backGround_color"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/detail_Label"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/title_Label"
+        android:text="Detail"
+        android:gravity="center"
+        android:background="@color/backGround_color"
+        android:textColor="@color/white"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/image_1"
+        />
+
+</RelativeLayout>

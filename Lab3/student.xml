@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+  <Gender>M</Gender>
+  <FirstName>Timothy</FirstName>
+  <FullTime>Yes</FullTime>
+  <PartTime>No</PartTime>
+  <Address>
+      <Firstline>Rathgael</Firstline>
+      <County>Dublin</County>
+      <Postcode>22</Postcode>
+  </Address>
+</Student>
