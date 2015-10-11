@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JSONApp</string>
+    <dimen name="cell_size">15sp</dimen>
+</resources>

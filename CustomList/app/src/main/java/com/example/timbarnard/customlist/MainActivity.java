@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "Tities are the best", Toast.LENGTH_LONG).show();
+               // Toast.makeText(MainActivity.this, "Tities are the best", Toast.LENGTH_LONG).show();
                 Intent switchScreen = new Intent(MainActivity.this, Main2Activity.class);
                 switchScreen.putExtra(EXTRA_MESSAGE, titleArray[position]);
                 startActivity(switchScreen);
