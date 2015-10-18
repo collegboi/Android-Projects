@@ -16,6 +16,5 @@ public class Main2Activity extends AppCompatActivity {
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         setTitle(message);
 
-
     }
 }

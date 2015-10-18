@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Toast.makeText(MainActivity.this, "Tities are the best", Toast.LENGTH_LONG).show();
 
         listView = (ListView)findViewById(R.id.list_view);
         myadapter = new MyAdapter(getApplicationContext(), R.layout.row_layout);
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-               // Toast.makeText(MainActivity.this, "Tities are the best", Toast.LENGTH_LONG).show();
+
                 Intent switchScreen = new Intent(MainActivity.this, Main2Activity.class);
                 switchScreen.putExtra(EXTRA_MESSAGE, titleArray[position]);
                 startActivity(switchScreen);
@@ -41,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
         for(int i = 0; i < this.imageArray.length; i++) {
-            MyClass myClass = new MyClass(this.imageArray[i], this.titleArray[i], this.detailArray[i]);
+
+            MyClass myClass;
+
+            if (i == 2) {
+                 myClass = new MyClass(R.drawable.ok, this.titleArray[i], this.detailArray[i]);
+
+            }
+
+            myClass = new MyClass(this.imageArray[i], this.titleArray[i], this.detailArray[i]);
 
             myadapter.add(myClass);
         }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Timbarnard/Documents/College/Android%20Dev/Async-ListView-Image-Loader-master/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="headline_array">
+        <item>G 66 XGM</item>
+        <item>YL 04 LLZ</item>
+        <item>MM 15 LME </item>
+        <item>08 D 42487</item>
+        <item>LB 10 ELB</item>
+        <item>WJ 15 CZX</item>
+        <item>KP 10 FTX</item>
+    </array>
+    <array name="images_array">
+        <item>http://www.collegboi.me/Uploads/404150666444276/G66XGM/car.404150666444276.0.g66xgm.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/YL04LLZ/car.404150666444276.0.yl04llz.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/MM15LME/car.404150666444276.0.mm15lme.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/08D42487/car.404150666444276.0.08d42487.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/LB10ELB/car.404150666444276.0.lb10elb.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/WJ15CZX/car.404150666444276.0.wj15czx.jpg</item>
+        <item>http://www.collegboi.me/Uploads/404150666444276/KP10FTX/car.404150666444276.0.kp10ftx.jpg</item>
+    </array>
+    <!-- From: file:/Users/Timbarnard/Documents/College/Android%20Dev/Async-ListView-Image-Loader-master/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="list_row_default_bg">#ffffff</color>
+    <color name="list_row_pressed_bg">#008cef</color>
+    <color name="list_row_selected_bg">#86d3f6</color>
+    <color name="text_color_default">#00000C</color>
+    <color name="text_color_inverse">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/Users/Timbarnard/Documents/College/Android%20Dev/Async-ListView-Image-Loader-master/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Timbarnard/Documents/College/Android%20Dev/Async-ListView-Image-Loader-master/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Async ListView</string>
+    <!-- From: file:/Users/Timbarnard/Documents/College/Android%20Dev/Async-ListView-Image-Loader-master/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

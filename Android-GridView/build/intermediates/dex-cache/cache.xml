@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/pre-dexed/debug/classes-5ee140f2a192ff2c1b46e08dc537df4a76763831.jar" />
+    </item>
+    <item
+        jar="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e9704e93bd0e495e5722eef4f77d834b50d29fa8.jar" />
+    </item>
+    <item
+        jar="/Users/Timbarnard/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-3631b5191d4be7502efb46d185dfde70b280a1ba.jar" />
+    </item>
+    <item
+        jar="/Users/Timbarnard/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ba2b909f22f7804e0388c030e4e4bed46c5e9ebd.jar" />
+    </item>
+    <item
+        jar="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Timbarnard/Documents/College/Android Dev/Android-GridView/app/build/intermediates/pre-dexed/debug/classes-0328c4d70b2bf672181280e1cbcee07ebddc40d2.jar" />
+    </item>
+
+</items>
