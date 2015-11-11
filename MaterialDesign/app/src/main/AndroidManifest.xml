@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.materialdesign" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_search"
+        android:label="Motor Spy"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="Motor Spy" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CarDetail" >
+        </activity>
+        <activity android:name=".activity.ReportActivity" >
+        </activity>
+        <activity android:name=".activity.LoginPage" >
+        </activity>
+        <activity android:name=".activity.ReturnListPage" >
+        </activity>
+        <activity android:name=".activity.AddCarView" >
+        </activity>
+        <activity android:name=".activity.RegisterPage" >
+        </activity>
+    </application>
+
+</manifest>

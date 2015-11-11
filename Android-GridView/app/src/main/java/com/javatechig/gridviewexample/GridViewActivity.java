@@ -102,31 +102,6 @@ public class GridViewActivity extends ActionBarActivity {
                 Intent intent = new Intent(GridViewActivity.this, DetailView.class);
                 intent.putExtra("key", mGridData.get(position).getId());
                 startActivity(intent);
-
-//                //Get item at position
-//                GridItem item = (GridItem) parent.getItemAtPosition(position);
-//
-//                Intent intent = new Intent(GridViewActivity.this, DetailsActivity.class);
-//                ImageView imageView = (ImageView) v.findViewById(R.id.grid_item_image);
-//
-//                // Interesting data to pass across are the thumbnail size/location, the
-//                // resourceId of the source bitmap, the picture description, and the
-//                // orientation (to avoid returning back to an obsolete configuration if
-//                // the device rotates again in the meantime)
-//
-//                int[] screenLocation = new int[2];
-//                imageView.getLocationOnScreen(screenLocation);
-//
-//                //Pass the image title and url to DetailsActivity
-//                intent.putExtra("left", screenLocation[0]).
-//                        putExtra("top", screenLocation[1]).
-//                        putExtra("width", imageView.getWidth()).
-//                        putExtra("height", imageView.getHeight()).
-//                        putExtra("title", item.getTitle()).
-//                        putExtra("image", item.getImage());
-//
-//                //Start details activity
-//                startActivity(intent);
             }
         });
 

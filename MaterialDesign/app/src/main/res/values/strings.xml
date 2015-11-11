@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Search</string>
+    <string name="nav_item_friends">News</string>
+    <string name="nav_item_notifications">Account</string>
+    <string name="nav_item_logOut">Log Out</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_logOut</item>
+    </string-array>
+
+    <string name="title_messages">Account</string>
+    <string name="title_friends">News</string>
+    <string name="title_home">Search</string>
+    <string name="carRegHint">Enter Car Reg</string>
+    <string name="search_button">Search</string>
+    <string name="search_button_desc">Search Car Number Plate</string>
+
+
+    <!-- car report string-->
+    <string name="report_car">Report</string>
+    <string name="add_country">Add Country</string>
+    <string name="add_county">Add County</string>
+    <string name="add_date">Date</string>
+    <string name="date_picker_title">Date</string>
+    <string name="title_activity_account_page">AccountPage</string>
+    <string name="username_placeholder">username</string>
+    <string name="login_lable">Login</string>
+    <string name="password_placeholder">password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register Now</string>
+</resources>

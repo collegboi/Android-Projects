@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/loc_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:text="Inver,\nDonegal,\nCo.Donegal"
+        android:gravity="left|center"
+        android:inputType="textMultiLine"
+        android:maxLength="140"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Th.01 Oct 2015"
+        android:gravity="center"
+        android:textColor="@color/blue_Text"
+        android:textSize="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrey"
+        android:id="@+id/view"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

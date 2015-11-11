@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timbarnard.criminalintent" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18"
+        />
+    <uses-permission
+        android:name="android.permission.CAMERA"/>
+    <uses-feature
+        android:name="android.hardware.camera"/>
+    <application android:label="@string/app_name">
+        <activity android:name=".Activity.CrimeListActivity"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.CrimePagerActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value=".Activity.CrimeListActivity"/>
+        </activity>
+        <activity android:name=".Activity.CrimeCameraActivity"
+                  android:screenOrientation="landscape"
+                  android:label="@string/app_name"
+                  android:exported="true"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+    </application>
+</manifest>

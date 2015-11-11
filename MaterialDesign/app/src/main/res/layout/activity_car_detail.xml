@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.javatechig.gridviewexample.DetailView"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGrey"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/mygallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    />
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/carRegLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/carVinLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carRegLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/carMakeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carVinLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="27dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/carModelLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carMakeLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="34dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+
+            <TextView
+                android:id="@+id/carYearLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/carModelLabel"
+                android:layout_alignStart="@+id/carModelLabel"
+                android:layout_below="@+id/carModelLabel"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="33dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/carColorLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carModelLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="New Text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/car_desc_box"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:gravity="top|center"
+                android:inputType="textMultiLine"
+                android:maxLength="140"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"/>
+
+            <TextView
+                android:id="@+id/loc_header"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

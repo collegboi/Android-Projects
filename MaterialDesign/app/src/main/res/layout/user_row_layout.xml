@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        />
+
+    <TextView
+        android:id="@+id/title_Label"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:paddingRight="10dp"
+        android:layout_toRightOf="@+id/car_image"
+        android:text="Make"
+        android:gravity="center"/>
+        <!--android:background="@color/cellColor"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="@dimen/cell_size"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--/>-->
+    <!--android:layout_below="@+id/title_Label"-->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/view"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
